@@ -1,0 +1,10 @@
+     :root {
+            --brand-red: #d1232a;
+            --brand-dark: #4a4d4e;
+            --brand-light: #f8fafc;
+        }
+        .bg-brand-red { background-color: var(--brand-red); }
+        .text-brand-red { color: var(--brand-red); }
+        .border-brand-red { border-color: var(--brand-red); }
+        .bg-brand-dark { background-color: var(--brand-dark); }
+        .text-brand-dark { color: var(--brand-dark); }

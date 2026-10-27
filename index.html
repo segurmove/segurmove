@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segur Move Mudanzas S.L. | Mudanzas en Sabadell y Barcelona</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon_trans.png">
+
+    <style>
+        :root {
+            --brand-red: #d1232a;
+            --brand-dark: #4a4d4e;
+            --brand-light: #f8fafc;
+        }
+
+        .bg-brand-red {
+            background-color: var(--brand-red);
+        }
+
+        .text-brand-red {
+            color: var(--brand-red);
+        }
+
+        .border-brand-red {
+            border-color: var(--brand-red);
+        }
+
+        .bg-brand-dark {
+            background-color: var(--brand-dark);
+        }
+
+        .text-brand-dark {
+            color: var(--brand-dark);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 font-sans text-gray-800 antialiased">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-white shadow-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo constructed visually from the image -->
+            <a href="#inicio" class="flex items-center group">
+                <img src="logo.png" alt="Segur Move - Traslados Seguros"
+                    class="w-auto h-14 object-contain transition-transform duration-300 group-hover:scale-105">
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#inicio" class="text-brand-dark hover:text-brand-red transition-colors">Inicio</a>
+                <a href="#servicios" class="text-brand-dark hover:text-brand-red transition-colors">Servicios</a>
+                <a href="#contacto" class="text-brand-dark hover:text-brand-red transition-colors">Contacto</a>
+            </nav>
+
+            <!-- Quick Action Call Button -->
+            <div class="flex items-center space-x-4">
+                <a href="tel:+34617489025"
+                    class="hidden sm:flex items-center text-sm font-bold text-brand-dark hover:text-brand-red transition-colors">
+                    <i class="fa-solid fa-phone mr-2 text-brand-red"></i> 617 489 025
+                </a>
+                <a href="#contacto"
+                    class="bg-brand-red hover:bg-red-700 text-white font-bold px-5 py-2.5 rounded-lg shadow-md transition-all transform hover:-translate-y-0.5">
+                    Pedir Presupuesto
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="relative bg-brand-dark text-white overflow-hidden py-20 lg:py-32">
+        <div
+            class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <div
+                    class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-full text-sm font-semibold tracking-wide text-red-300">
+                    <span class="flex h-2 w-2 rounded-full bg-brand-red animate-pulse"></span>
+                    <span>Mudanzas Locales, Nacionales e Internacionales</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
+                    Tus pertenencias en las manos más <span class="text-brand-red">seguras</span>.
+                </h1>
+                <p class="text-lg text-gray-300 max-w-xl">
+                    En <strong>Segur Move Mudanzas S.L.</strong> nos encargamos de todo el proceso de traslado con la
+                    máxima profesionalidad desde nuestra sede en Sabadell.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="tel:+34617489025"
+                        class="bg-brand-red hover:bg-red-700 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-xl flex items-center transition-all">
+                        <i class="fa-solid fa-phone-flip mr-3"></i> Llama al 617 489 025
+                    </a>
+                    <a href="#servicios"
+                        class="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all">
+                        Ver Servicios
+                    </a>
+                </div>
+            </div>
+            <!-- Interactive Visual Frame for context -->
+            <div class="relative hidden lg:block">
+                <div
+                    class="absolute -inset-1 rounded-2xl bg-gradient-to-tr from-brand-red to-gray-600 opacity-30 blur-lg">
+                </div>
+                <div
+                    class="relative bg-white text-brand-dark p-8 rounded-2xl shadow-2xl border border-gray-100 flex flex-col justify-between min-h-[320px]">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs uppercase tracking-widest text-gray-400 font-bold">Garantía Corporativa
+                            </p>
+                            <h3 class="text-2xl font-black mt-1 text-black">Traslados 100% Seguros</h3>
+                        </div>
+                        <span class="bg-red-50 text-brand-red p-3 rounded-xl"><i
+                                class="fa-solid fa-shield-halved text-2xl"></i></span>
+                    </div>
+                    <div class="space-y-3 my-6">
+                        <div class="flex items-center space-x-3 text-sm">
+                            <i class="fa-solid fa-check text-brand-red"></i>
+                            <span>Flota propia de camiones totalmente equipada</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-sm">
+                            <i class="fa-solid fa-check text-brand-red"></i>
+                            <span>Embalaje profesional y montaje de mobiliario</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-sm">
+                            <i class="fa-solid fa-check text-brand-red"></i>
+                            <span>Seguro de transporte de mercancías integrado</span>
+                        </div>
+                    </div>
+                    <div
+                        class="border-t border-gray-100 pt-4 flex items-center justify-between text-xs text-gray-500 font-medium">
+                        <span><i class="fa-solid fa-location-dot mr-1"></i> Sabadell, Barcelona</span>
+                        <span>CIF: B-66693177</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section id="servicios" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <h2 class="text-xs font-bold tracking-widest text-brand-red uppercase">Nuestras soluciones operativas</h2>
+            <p class="text-3xl sm:text-4xl font-black text-black tracking-tight">Servicios integrales a tu disposición
+            </p>
+            <div class="w-16 h-1 bg-brand-red mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid p-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Service 1 -->
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 transition-all group hover:-translate-y-1">
+                <div
+                    class="w-14 h-14 bg-red-50 text-brand-red rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-brand-red group-hover:text-white transition-all">
+                    <i class="fa-solid fa-truck-ramp-box"></i>
+                </div>
+                <h3 class="text-xl font-bold text-black mb-3">Mudanzas</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Planificamos traslados locales, nacionales e internacionales para viviendas particulares y oficinas
+                    corporativas.
+                </p>
+            </div>
+            <!-- Service 2 -->
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 transition-all group hover:-translate-y-1">
+                <div
+                    class="w-14 h-14 bg-red-50 text-brand-red rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-brand-red group-hover:text-white transition-all">
+                    <i class="fa-solid fa-road"></i>
+                </div>
+                <h3 class="text-xl font-bold text-black mb-3">Transporte</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Especialistas en el transporte logístico seguro de todo tipo de mercancías y bultos por carretera.
+                </p>
+            </div>
+            <!-- Service 3 -->
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 transition-all group hover:-translate-y-1">
+                <div
+                    class="w-14 h-14 bg-red-50 text-brand-red rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-brand-red group-hover:text-white transition-all">
+                    <i class="fa-solid fa-warehouse"></i>
+                </div>
+                <h3 class="text-xl font-bold text-black mb-3">Almacenamiento</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Instalaciones de guardamuebles adaptadas con sistemas de consigna y custodia permanente de
+                    materiales.
+                </p>
+            </div>
+            <!-- Service 4 -->
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md border border-gray-100 transition-all group hover:-translate-y-1">
+                <div
+                    class="w-14 h-14 bg-red-50 text-brand-red rounded-xl flex items-center justify-center text-2xl font-bold mb-6 group-hover:bg-brand-red group-hover:text-white transition-all">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h3 class="text-xl font-bold text-black mb-3">Empresas</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Soluciones a medida para traslados de oficinas, embalaje profesional técnico, desmontaje y montaje
+                    especializado.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Information & Contact Section -->
+    <section id="contacto" class="bg-white py-20 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-5 gap-12">
+
+            <!-- Company Info Column -->
+            <div class="lg:col-span-2 space-y-6">
+                <h2 class="text-3xl font-black tracking-tight text-black">Contacta con nosotros</h2>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Pide tu presupuesto personalizado sin compromiso. Nuestro equipo técnico resolverá de forma ágil
+                    todas tus necesidades operativas de transporte.
+                </p>
+                <div class="space-y-4 font-medium text-sm">
+                    <div class="flex items-start space-x-3">
+                        <i class="fa-solid fa-location-dot text-brand-red mt-1 text-base"></i>
+                        <div>
+                            <p class="text-black font-bold">Dirección Central</p>
+                            <p class="text-gray-600">Carrer de Girona, 244 (Bajos), 08203 Sabadell, Barcelona</p>
+                            <a href="https://maps.google.com/?q=Carrer+de+Girona+244+Sabadell" target="_blank"
+                                class="text-brand-red hover:underline font-bold text-xs inline-block mt-1">
+                                <i class="fa-solid fa-map-location-dot mr-1"></i> Ver en Google Maps
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-phone text-brand-red text-base"></i>
+                        <div>
+                            <p class="text-black font-bold">Teléfono Comercial</p>
+                            <p class="text-gray-600">617 489 025 / 697 782 195</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-globe text-brand-red text-base"></i>
+                        <div>
+                            <p class="text-black font-bold">Sitio Web Oficial</p>
+                            <p class="text-gray-600">www.segurmove.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lead capture form -->
+            <div class="lg:col-span-3 bg-gray-50 p-8 sm:p-10 rounded-2xl border border-gray-100 shadow-sm">
+                <h3 class="text-xl font-bold text-black mb-6">Solicitud de Presupuesto Inmediato</h3>
+                <form class="space-y-5"
+                    action="https://formsubmit.co/a.mogente@gmail.com"
+                    method="POST">
+                    <input type="hidden" name="_subject" value="Nueva solicitud de presupuesto - Segur Move">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://www.segurmove.com/">
+                    
+                    <div class="grid sm:grid-cols-2 gap-5">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Nombre Completo</label>
+                            <input type="text" name="Nombre completo" required
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-brand-red transition-all text-sm"
+                                placeholder="Ej. Juan Pérez">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Teléfono de
+                                Contacto</label>
+                            <input type="tel" name="Teléfono de contacto" required
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-brand-red transition-all text-sm"
+                                placeholder="Ej. 600 000 000">
+                        </div>
+                    </div>
+                    <div class="grid sm:grid-cols-2 gap-5">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Origen del
+                                Traslado</label>
+                            <input type="text" name="Origen del traslado" required
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-brand-red transition-all text-sm"
+                                placeholder="Ej. Sabadell">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Destino del
+                                Traslado</label>
+                            <input type="text" name="Destino del traslado" required
+                                class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-brand-red transition-all text-sm"
+                                placeholder="Ej. Barcelona Centro">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Detalles del Servicio /
+                            Inventario estimado</label>
+                        <textarea name="Detalles del servicio" rows="4"
+                            class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white focus:outline-none focus:border-brand-red transition-all text-sm"
+                            placeholder="Indica brevemente qué necesitas trasladar (muebles principales, cajas, fechas deseadas...)"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-brand-red hover:bg-red-700 text-white font-bold py-4 rounded-xl shadow-lg transition-colors text-base">
+                        Enviar Solicitud <i class="fa-solid fa-paper-plane ml-2"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-gray-400 text-xs py-12 border-t border-gray-700">
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+            <div class="flex items-center space-x-3">
+                <span class="text-sm font-black tracking-tight text-white">SEGUR MOVE MUDANZAS S.L.</span>
+                <span class="text-gray-500">|</span>
+                <span>CIF: B-66693177</span>
+            </div>
+            <div class="text-center sm:text-right">
+                <p>&copy; 2026 Segur Move Mudanzas S.L. Todos los derechos reservados.</p>
+                <p class="text-[10px] text-gray-500 mt-1">Domicilio Social: Carrer de Girona, 244 (Bajos), 08203
+                    Sabadell (Barcelona)</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
